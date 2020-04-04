@@ -7,9 +7,10 @@ module.exports = {
     client: 'mysql',
     connection: {
       host : 'localhost',
-      user : 'root',
-      password : process.env.DB_PASS,
-      database : 'Set'
+      port: '3310',
+      user : 'set',
+      password : 'set', 
+      database : 'set'
     },
     migrations: {
       directory: __dirname + '/db/migrations',
